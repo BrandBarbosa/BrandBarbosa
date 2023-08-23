@@ -1,0 +1,137 @@
+.container{
+    list-style:none;
+    margin: 20px;
+    overflow: none;
+    display: inline;
+}
+.home a{
+  font-weight: bold;
+  font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    padding:30px
+}
+
+#lidesign {
+ display:flex;
+ justify-content: flex-end;
+ float:right;
+ width:60%;
+ height: 30%;
+ margin: 10px;
+} 
+
+ .container span{
+    font-family: Lucida Calligraphy;
+      color: rgb(5, 12, 3);
+    font-weight: bold;
+    font-size: 50px;
+    width: 30%;
+    margin: 10px;
+}
+button{
+    font-family: Lucida Calligraphy;
+    text-decoration: none;
+    padding: 5px; 
+    border: 2px solid black;
+}
+
+header{
+  background-color:wheat;
+}
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TEXT-MAINS{
+    font-size: 500px;
+    padding-left:500px;
+}
+.IMG-MAIN{
+  max-width: 100%;
+  max-height: 100%;
+}
+.B1{
+    font-size: 60px;
+}
+.btn{
+    display: flex;
+    width: auto;
+    height: auto;
+
+}
+.apply.a:visited{
+  color: red;
+
+}
+.h{
+    width: auto;
+    height: 30px;
+    background-color:rgb(151, 151, 62) ;
+    color: blue;
+    
+}
+ 
+.D{
+    width:5%;
+    justify-content: center;
+    padding: 5%;
+
+
+}
+.D1{
+  padding: 90px;
+  
+} 
+.D2{
+  justify-content: center;
+  width: max-content;
+  font-display: 50%;
+  font-size: 500%;
+  margin: 10%;
+  
+    
+}
+ .D3{
+  padding: 50%;
+  
+}
+.D4{
+  padding: 5px;
+  width: 50px;
+  border-radius: 2px;
+  
+  
+}
+
+h2{
+  text-align: center;
+  font-size: 50px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-item p {
+  margin-top: 10px;
+}
+
+
+
+
